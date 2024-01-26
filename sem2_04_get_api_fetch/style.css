@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+img {
+  max-width: 360px;
+  max-height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.task-about-users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.user {
+  background-color: darkgrey;
+  border: 1px solid black;
+}
+
+.user__info {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dogs {
+  display: flex;
+  gap: 30px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dog-task-heading {
+  font-size: 24px;
+}
+
+.dogs-1 {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.dogs-2 {
+  width: 40%;
+}
+
+.dog_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog_picture {
+  flex: 1;
+}
+
+.remove {
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
